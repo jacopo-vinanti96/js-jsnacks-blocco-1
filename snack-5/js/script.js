@@ -1,4 +1,4 @@
-var numContainer = [];
+var numContainer = [], userNum;
 
 for ( var i = 0; i < 6; i++ ) {
   userNum = parseInt( prompt("Inserisci un numero intero") );
