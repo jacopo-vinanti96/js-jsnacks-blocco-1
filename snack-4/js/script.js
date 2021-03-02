@@ -9,7 +9,7 @@ for ( var i = 0; i < nomiAutorizzati.length; i++ ) {
 }
 
 if (invitato == true ) {
-  alert( "Ciao" nomeUser + ", sei tra gli invitati!");
+  alert( "Ciao" + nomeUser + ", sei tra gli invitati!");
 } else {
   alert( nomeUser + ", non sei tra gli invitati, mi dispiace");
 }
