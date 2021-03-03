@@ -1,7 +1,7 @@
-// Chiedi N numeri
-
+// ---------Dichiarazione variabili----------
 var n = 0, cubo = 0;
 
+// ----------Chiedi N numeri----------
 do {
   n = parseInt( prompt("Inserisci la quantità di numeri da elevare al cubo") );
   if ( isNaN( n ) ) {
@@ -9,8 +9,7 @@ do {
   }
 } while ( isNaN( n ) )
 
-// Stampa N numeri al cubo
-
+// ----------Stampa N numeri al cubo----------
 for ( var i = 1; i <= n; i++ ) {
   cubo = i * i * i;
   console.log( cubo );
