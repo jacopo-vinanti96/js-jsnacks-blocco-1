@@ -13,5 +13,5 @@ do {
 
 for ( var i = 1; i <= n; i++ ) {
   cubo = i * i * i;
-  console.log( i );
+  console.log( cubo );
 }
