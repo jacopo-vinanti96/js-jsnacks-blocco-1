@@ -11,6 +11,7 @@ do {
 
 // ----------Stampa N numeri al cubo----------
 for ( var i = 1; i <= n; i++ ) {
-  cubo = i * i * i;
+  // cubo = i * i * i;
+  cubo = Math.pow( i, 3 );
   console.log( cubo );
 }
